@@ -55,7 +55,6 @@ app.post('/players/', async (request, response) => {
 
   const dbResponse = await db.run(addPlayerQuery)
   response.send('Player Added to Team')
-
 })
 
 //Get player API
